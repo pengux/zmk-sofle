@@ -66,11 +66,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE      &trans         &trans      &mkp MCLK   &trans      &trans       &mmv MOVE_UP        &kp SLASH   &kp N7   &kp N8     &kp N9       &trans   &kp EQUAL
-&kp CAPS       &kp TILDE      &mkp LCLK   &kp UP      &mkp RCLK   &mkp MB4     &mmv MOVE_DOWN      &kp STAR    &kp N4   &kp N5     &kp N6       &trans   &kp RBKT
-&kp NUBS       &kp LS(NUBS)   &kp LEFT    &kp DOWN    &kp RIGHT   &mkp MB5     &mmv MOVE_LEFT      &kp MINUS   &kp N1   &kp N2     &kp N3       &trans   &trans
-&kp RA(NUBS)   &trans         &kp GT      &trans      &trans      &trans       &mmv MOVE_RIGHT     &kp PLUS    &kp N0   &kp PLUS   &kp MINUS    &trans   &trans
-&kp C_MUTE     &trans         &trans      &trans      &trans      &trans       &mkp LCLK           &trans      &trans   &trans     &kp DELETE   &trans
+&kp GRAVE    &trans         &trans         &mkp MCLK   &trans      &trans       &mmv MOVE_UP        &kp SLASH   &kp N7   &kp N8     &kp N9       &trans   &kp EQUAL
+&kp CAPS     &kp TILDE      &mkp LCLK      &kp UP      &mkp RCLK   &mkp MB4     &mmv MOVE_DOWN      &kp STAR    &kp N4   &kp N5     &kp N6       &trans   &kp RBKT
+&trans       &kp RA(NUBS)   &kp LEFT       &kp DOWN    &kp RIGHT   &mkp MB5     &mmv MOVE_LEFT      &kp MINUS   &kp N1   &kp N2     &kp N3       &trans   &trans
+&trans       &kp NUBS       &kp LS(NUBS)   &trans      &trans      &trans       &mmv MOVE_RIGHT     &kp PLUS    &kp N0   &kp PLUS   &kp MINUS    &trans   &trans
+&kp C_MUTE   &trans         &trans         &trans      &trans      &trans       &mkp LCLK           &trans      &trans   &trans     &kp DELETE   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
