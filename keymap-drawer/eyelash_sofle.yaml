@@ -60,9 +60,9 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: L1}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: L1}
-  - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-option$$
+  - RGUI
   - {t: L2, h: '$$mdi:gesture-tap-hold$$'}
   L1:
   - {t: '`', s: '~'}
@@ -125,9 +125,9 @@ layers:
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   L2:
   - F1
