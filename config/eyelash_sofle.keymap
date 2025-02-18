@@ -79,11 +79,11 @@
 
         layer_2 {
             bindings = <
-&kp F1           &kp F2            &kp F3            &kp F4            &kp F5            &kp F6              &mmv MOVE_UP        &kp F7         &kp F8           &kp F9         &kp F10        &kp F11        &kp F12
-&sys_reset       &trans            &kp PSCRN         &kp PG_UP         &kp INSERT        &trans              &mmv MOVE_DOWN      &bt BT_SEL 0   &bt BT_SEL 1     &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4   &sys_reset
-&bootloader      &trans            &kp HOME          &kp PG_DN         &kp END           &trans              &mmv MOVE_LEFT      &bt BT_CLR     &bt BT_CLR_ALL   &trans         &trans         &trans         &bootloader
-&rgb_ug RGB_ON   &rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_EFR   &rgb_ug RGB_BRI   &rgb_ug RGB_BRD     &mmv MOVE_RIGHT     &out OUT_USB   &out OUT_BLE     &trans         &trans         &trans         &soft_off
-&trans           &trans            &trans            &trans            &trans            &trans              &mkp LCLK           &trans         &trans           &trans         &trans         &trans
+&kp F1   &kp F2   &kp F3      &kp F4      &kp F5         &kp F6           &mmv MOVE_UP        &kp F7           &kp F8            &kp F9            &kp F10           &kp F11           &kp F12
+&trans   &trans   &kp PSCRN   &kp PG_UP   &kp INSERT     &trans           &mmv MOVE_DOWN      &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &sys_reset
+&trans   &trans   &kp HOME    &kp PG_DN   &kp END        &trans           &mmv MOVE_LEFT      &bt BT_CLR       &bt BT_CLR_ALL    &trans            &trans            &trans            &bootloader
+&trans   &trans   &trans      &soft_off   &out OUT_USB   &out OUT_BLE     &mmv MOVE_RIGHT     &rgb_ug RGB_ON   &rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_EFR   &rgb_ug RGB_BRI   &rgb_ug RGB_BRD
+&trans   &trans   &trans      &trans      &trans         &trans           &mkp LCLK           &trans           &trans            &trans            &trans            &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
