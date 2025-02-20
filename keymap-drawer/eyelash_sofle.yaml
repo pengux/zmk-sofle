@@ -6,7 +6,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - SCRL UP
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -19,7 +19,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-down-bold$$
+  - SCRL DOWN
   - Y
   - U
   - I
@@ -58,7 +58,7 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: L1}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - LCLK
   - {t: '$$mdi:keyboard-return$$', h: L1}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
