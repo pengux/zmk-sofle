@@ -54,9 +54,9 @@ layers:
   - '#'
   - $$mdi:volume-off$$
   - {t: L2, h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:keyboard-space$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-esc$$', h: L1}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: L1}
