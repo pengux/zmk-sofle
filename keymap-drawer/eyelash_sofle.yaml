@@ -6,7 +6,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - '&mmv SCRL_UP'
+  - $$mdi:pan-up$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -19,7 +19,7 @@ layers:
   - E
   - R
   - T
-  - '&mmv SCRL_DOWN'
+  - $$mdi:pan-down$$
   - Y
   - U
   - I
