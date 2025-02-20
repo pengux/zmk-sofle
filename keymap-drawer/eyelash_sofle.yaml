@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - RGUI
+  - {t: L2, h: '$$mdi:gesture-tap-hold$$'}
   L1:
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -193,7 +193,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   L3:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
