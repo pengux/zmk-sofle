@@ -58,7 +58,7 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: L1}
-  - LCLK
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', h: L1}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
