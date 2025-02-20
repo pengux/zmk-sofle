@@ -27,7 +27,7 @@ layers:
   - P
   - {t: '[', s: '{'}
   - $$mdi:apple-keyboard-shift$$
-  - '&mt A'
+  - A
   - S
   - D
   - F
