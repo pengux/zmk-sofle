@@ -53,7 +53,7 @@ layers:
   - {t: /, s: '?'}
   - '#'
   - $$mdi:volume-off$$
-  - {t: L2, h: '$$mdi:gesture-tap-hold$$'}
+  - L2
   - $$mdi:keyboard-space$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: L2, h: '$$mdi:gesture-tap-hold$$'}
+  - L2
   L1:
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
