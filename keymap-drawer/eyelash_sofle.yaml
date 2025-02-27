@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: L1}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - RGUI
   - L2
   L1:
   - {t: '`', s: '~'}
@@ -76,7 +76,7 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, s: '?'}
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-caps$$
   - '~'
@@ -85,11 +85,11 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - '*'
+  - $$mdi:backspace-reverse-outline$$
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '*'
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - AltGr+NUBS
@@ -98,7 +98,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '-', s: _}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -111,7 +111,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - +
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
   - +
   - {t: '-', s: _}
@@ -127,7 +127,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   L2:
   - F1
