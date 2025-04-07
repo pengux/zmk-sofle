@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_sofle}
 layers:
   L0:
   - {t: '$$mdi:keyboard-esc$$', s: '`'}
@@ -55,7 +56,7 @@ layers:
   - $$mdi:volume-off$$
   - L2
   - $$mdi:keyboard-space$$
-  - LGUI
+  - {t: '$$mdi:keyboard-space$$', h: LGUI}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: L1}
   - $$mdi:mouse-left-click-outline$$
