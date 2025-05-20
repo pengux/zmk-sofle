@@ -64,7 +64,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - RGUI
-  - {t: L2, h: toggle}
+  - {t: L3, h: toggle}
   L1:
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
