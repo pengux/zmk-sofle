@@ -38,6 +38,10 @@
     acceleration-exponent = <1>;
 };
 
+&lt {
+    tapping-term-ms = <100>; // This is the value already set by default
+};
+
 
 / {
 
