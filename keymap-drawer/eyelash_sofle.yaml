@@ -163,7 +163,7 @@ layers:
   - PG DN
   - END
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
@@ -176,7 +176,7 @@ layers:
   - '&soft_off'
   - OUT USB
   - OUT BLE
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB ON
   - RGB OFF
   - RGB EFF
