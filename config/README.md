@@ -2,6 +2,11 @@
 
 ## Updating keymap
 
+Run `make format` from this directory after editing `eyelash_sofle.keymap`.
+This requires Python 3 and aligns the binding columns while preserving existing
+rows, key positions, and bindings. Other Devicetree properties are left unchanged.
+To format another keymap, use `make format KEYMAP=path/to/file.keymap`.
+
 1. Make changes and commit to git
 2. Push the changes to Github repo to trigger build
 3. Download the build artifacts from the "build / Merge Output Artifacts" job from the "Artifact download URL" output
