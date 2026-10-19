@@ -106,11 +106,11 @@
 
         layer_3 {
             bindings = <
-                &bt BT_CLR    &bt BT_CLR_ALL   &trans           &mkp MCLK        &trans            &trans            &trans      &trans           &trans            &trans            &trans            &trans            &trans
-                &sys_reset    &trans           &mkp LCLK        &mmv MOVE_UP     &mkp RCLK         &mkp MB4          &trans      &trans           &trans            &trans            &trans            &trans            &trans
-                &bootloader   &trans           &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &mkp MB5          &trans      &bl BL_TOG       &bl BL_DEC        &bl BL_INC        &trans            &trans            &trans
-                &soft_off     &trans           &trans           &trans           &out OUT_USB      &out OUT_BLE      &trans      &rgb_ug RGB_ON   &rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_EFR   &rgb_ug RGB_BRI   &rgb_ug RGB_BRD
-                &trans        &trans           &trans           &trans           &trans            &trans            &trans      &trans           &trans            &trans            &trans            &trans
+                &trans        &trans       &trans           &mkp MCLK        &trans            &trans            &trans      &trans           &trans            &trans            &trans            &trans            &trans
+                &sys_reset    &trans       &mkp LCLK        &mmv MOVE_UP     &mkp RCLK         &mkp MB4          &trans      &trans           &trans            &trans            &trans            &trans            &trans
+                &bootloader   &trans       &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &mkp MB5          &trans      &bl BL_TOG       &bl BL_DEC        &bl BL_INC        &trans            &trans            &trans
+                &soft_off     &bt BT_CLR   &bt BT_CLR_ALL   &trans           &out OUT_USB      &out OUT_BLE      &trans      &rgb_ug RGB_ON   &rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_EFR   &rgb_ug RGB_BRI   &rgb_ug RGB_BRD
+                &trans        &trans       &trans           &trans           &trans            &trans            &trans      &trans           &trans            &trans            &trans            &trans
             >;
 
             display-name = "L3";
