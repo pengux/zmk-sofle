@@ -232,7 +232,7 @@ layers:
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
-  - '&msc_SCRL_RIGHT'
+  - $$mdi:pan-right$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&soft_off'
