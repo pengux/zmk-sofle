@@ -196,9 +196,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   L3:
-  - $$mdi:bluetooth-off$$
-  - BT CLR ALL
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&bl BL_TOG'
+  - '&bl BL_DEC'
+  - '&bl BL_INC'
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -229,15 +229,15 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&bl BL_TOG'
-  - '&bl BL_DEC'
-  - '&bl BL_INC'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-left$$
+  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
+  - '&msc_SCRL_RIGHT'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&soft_off'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:bluetooth-off$$
+  - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
