@@ -60,6 +60,13 @@
             bindings = <&to 4>;
             layers = <0>;
         };
+
+        combo_layer_5 {
+            timeout-ms = <50>;
+            key-positions = <54 62>; // Base layer: &mo 3 and &mo 3
+            bindings = <&to 5>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -106,11 +113,11 @@
 
         layer_3 {
             bindings = <
-                &bl BL_TOG    &bl BL_DEC   &bl BL_INC       &mkp MCLK        &trans            &trans            &trans      &trans           &trans            &trans            &trans            &trans            &trans
-                &sys_reset    &trans       &mkp LCLK        &mmv MOVE_UP     &mkp RCLK         &mkp MB4          &trans      &trans           &trans            &trans            &trans            &trans            &trans
-                &bootloader   &trans       &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &mkp MB5          &trans      &msc SCRL_LEFT   &msc SCRL_DOWN    &msc SCRL_UP      &msc SCRL_RIGHT   &trans            &trans
-                &soft_off     &bt BT_CLR   &bt BT_CLR_ALL   &trans           &out OUT_USB      &out OUT_BLE      &trans      &rgb_ug RGB_ON   &rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_EFR   &rgb_ug RGB_BRI   &rgb_ug RGB_BRD
-                &trans        &trans       &trans           &trans           &trans            &trans            &trans      &trans           &trans            &trans            &trans            &trans
+                &bl BL_TOG   &bl BL_DEC   &bl BL_INC       &mkp MCLK        &trans            &trans            &trans      &trans           &trans            &trans            &trans            &trans            &trans
+                &trans       &trans       &mkp LCLK        &mmv MOVE_UP     &mkp RCLK         &mkp MB4          &trans      &trans           &trans            &trans            &trans            &trans            &trans
+                &trans       &trans       &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &mkp MB5          &trans      &msc SCRL_LEFT   &msc SCRL_DOWN    &msc SCRL_UP      &msc SCRL_RIGHT   &trans            &trans
+                &trans       &trans       &trans           &trans           &out OUT_USB      &out OUT_BLE      &trans      &rgb_ug RGB_ON   &rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &rgb_ug RGB_EFR   &rgb_ug RGB_BRI   &rgb_ug RGB_BRD
+                &trans       &trans       &trans           &trans           &trans            &trans            &trans      &trans           &trans            &trans            &trans            &trans
             >;
 
             display-name = "L3";
@@ -127,6 +134,18 @@
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             display-name = "L4";
+        };
+
+        layer_5 {
+            bindings = <
+                &trans        &trans       &trans           &trans   &trans   &trans      &trans      &trans   &trans   &trans   &trans   &trans   &trans
+                &sys_reset    &trans       &trans           &trans   &trans   &trans      &trans      &trans   &trans   &trans   &trans   &trans   &trans
+                &bootloader   &trans       &trans           &trans   &trans   &trans      &trans      &trans   &trans   &trans   &trans   &trans   &trans
+                &soft_off     &bt BT_CLR   &bt BT_CLR_ALL   &trans   &trans   &trans      &trans      &trans   &trans   &trans   &trans   &trans   &trans
+                &trans        &trans       &trans           &trans   &trans   &trans      &trans      &trans   &trans   &trans   &trans   &to 0
+            >;
+
+            display-name = "L5";
         };
     };
 };
